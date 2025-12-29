@@ -22,8 +22,10 @@ async function main() {
   const faviconFile = `${faviconPath}/${name}.ico`;
   // アイコンファイル書き込み
   await writeImageFile(favicon, faviconFile);
+  console.log("write image", faviconFile);
 
   const desktopFilePath = `${process.env.HOME}/.local/share/applications/webapp.${name.replaceAll(" ", ".")}.desktop`;
+  // デスクトップファイル作成
   await Bun.write(desktopFilePath, desktopFile(browser, name, faviconFile, url));
   console.log("created desktop file", desktopFilePath);
 }

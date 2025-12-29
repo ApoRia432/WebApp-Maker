@@ -2,7 +2,7 @@
   "name": "webappmaker",
   "scripts": {
     "start": "bun src/index.ts",
-    "dev": "bun --host src/index.ts",
+    "dev": "bun --hot src/index.ts",
     "compile": "bun build ./src/index.ts --compile --outfile webapp-maker"
   },
   "devDependencies": {

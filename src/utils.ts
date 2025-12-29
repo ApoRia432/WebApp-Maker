@@ -18,7 +18,6 @@ export const writeImageFile = async (url: string, filePath: string) => {
   const array = await response.arrayBuffer();
   const byteArray = new Uint8Array(array);
   await Bun.write(filePath, byteArray);
-  console.log("write image", filePath);
 }
 
 export const desktopFile = (browser: string, name: string, icon: string, url: string) => {
