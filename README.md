@@ -12,6 +12,11 @@
 1. type url
 1. type application name
 
+## Requirements
+
+- bun
+- make
+
 ## Installation
 
 To install webapp-maker:
