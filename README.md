@@ -1,5 +1,17 @@
 # WebApp Maker
 
+![app-launcher](./assets/launcher.png)
+![preview](./assets/webapp.png)
+
+## How to use
+
+![how2use](./assets/console.png)
+
+1. run `webapp-maker`
+1. type your browser
+1. type url
+1. type application name
+
 ## Installation
 
 To install webapp-maker:
